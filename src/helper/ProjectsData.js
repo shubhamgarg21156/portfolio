@@ -1,46 +1,44 @@
-import Work1 from "../assets/work-1.svg";
-import Work2 from "../assets/work-2.svg";
-import Work3 from "../assets/work-3.svg";
-import Work4 from "../assets/work-4.svg";
-import Work5 from "../assets/work-5.svg";
-import Work6 from "../assets/work-6.svg";
+import Chat from "../assets/chat.svg";
+import FashionImage from "../assets/Fashion.svg";
+import Weather from "../assets/Weather-bro.svg";
+import AI from "../assets/ai.svg";
 
 const Projects = [
     {
       id: 1,
-      image: Work1,
-      title: "Project Management Illustration",
-      category: ["React.js","Firebase"]
+      image: Chat,
+      title: "Chatzoid",
+      category: ["React.js","Firebase","Javascript"],
+      link:"https://github.com/shubhamgarg21156/chatzoid",
+      projectLink:"",
+      details:"Chatzoid is a real-time messaging platform built with React.js and Firebase database. With its intuitive UI, users can instantly connect with each other, share messages and images."
     },
     {
       id: 2,
-      image: Work2,
-      title: "Guest App Walkthrough Screens",
-      category: ["Node.js"]
+      image: FashionImage,
+      title: "Fashion-adda",
+      category: ["React.js","Javascript"],
+      link:"https://github.com/shubhamgarg21156/fashion-adda",
+      projectLink:"https://fashion-adda.netlify.app/",
+      details:"Fashion-Adda is a stylish and intuitive React app. It seamlessly integrates with an API to fetch an extensive collection of clothes products, ensuring a wide range of options for users to explore."
     },
     {
       id: 3,
-      image: Work3,
-      title: "Delivery App Wireframe",
-      category: ["Javascript"]
+      image: Weather,
+      title: "Weather App",
+      category: ["Javascript"],
+      link:"https://github.com/shubhamgarg21156/weather",
+      projectLink:"webweatherforecast.netlify.app/",
+      details:"This website provides you with real-time weather information for any location around the world. With a clean and user-friendly interface, you can easily access all the weather details you need."
     },
     {
       id: 4,
-      image: Work4,
-      title: "Onboarding Motivation",
-      category: ["Firebase"]
-    },
-    {
-      id: 5,
-      image: Work5,
-      title: "iMac Mockup Design",
-      category: ["Firebase"]
-    },
-    {
-      id: 6,
-      image: Work6,
-      title: "Game Store App Concept",
-      category: ["Node.js"]
+      image: AI,
+      title: "Imagecraft",
+      category: ["MERN","Node.js","Javascript"],
+      link:"https://github.com/shubhamgarg21156/imagecraft",
+      projectLink:"imagecraft.vercel.app",
+      details:"It is a MERN app which harnesses the power of the OpenAI API to create a unique and fascinating experience. By leveraging the capabilities of the OpenAI API, the app generates vivid and realistic images based on user prompts."
     }
   ];
 

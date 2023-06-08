@@ -2,7 +2,7 @@ import React from 'react'
 
 const ScrollDown = () => {
   return (
-    <div className='absolute bottom-9 left-0 w-full'>
+    <div className='absolute bottom-[20px] sm:bottom-9 left-0 w-full'>
         <a href="#about" className='cursor-pointer'>
             <span className="text-sm">Scroll Down</span>
             <span className="block h-8 w-5 m-auto mt-3 rounded-2xl border-2 border-textColor relative" >

@@ -6,6 +6,7 @@ const HeaderSocials = () => {
        <IconLink SocialMedia="instagram" link="https://www.instagram.com/auspicious_am/" />
        <IconLink SocialMedia="twitter" link="https://twitter.com/__ShubhamGarg__"/>
        <IconLink SocialMedia="github" link="https://github.com/shubhamgarg21156"/>
+       <IconLink SocialMedia="linkedin" link="https://www.linkedin.com/in/gargshubham2/"/>
     </div>
   )
 }
