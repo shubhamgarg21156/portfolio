@@ -20,10 +20,10 @@ const About = () => {
                 </div>
             </div>
         </div> 
-        <a href="#home" className='px-8 py-3 mt-[50px] sm:mt-6 bg-firstColor rounded-3xl shadow-black shadow-2xl inline-block font-semibold text-white border border-solid 
+        <a href="https://drive.google.com/file/d/19fepTj3OpUABU47a4u1VaGZfj90dxSv9/view?usp=sharing" target={"_blank"} className='px-8 py-3 mt-[50px] sm:mt-6 bg-firstColor rounded-3xl shadow-black shadow-2xl inline-block font-semibold text-white border border-solid 
             border-transparent hover:scale-[.8] z-100'>
-                        Download CV
-                    </a>   
+                Resume
+        </a>   
     </section>
   )
 }

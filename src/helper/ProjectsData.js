@@ -10,7 +10,7 @@ const Projects = [
       title: "Chatzoid",
       category: ["React.js","Firebase","Javascript"],
       link:"https://github.com/shubhamgarg21156/chatzoid",
-      projectLink:"",
+      projectLink:"https://chatzoid.netlify.app/",
       details:"Chatzoid is a real-time messaging platform built with React.js and Firebase database. With its intuitive UI, users can instantly connect with each other, share messages and images."
     },
     {
@@ -24,22 +24,23 @@ const Projects = [
     },
     {
       id: 3,
-      image: Weather,
-      title: "Weather App",
-      category: ["Javascript"],
-      link:"https://github.com/shubhamgarg21156/weather",
-      projectLink:"webweatherforecast.netlify.app/",
-      details:"This website provides you with real-time weather information for any location around the world. With a clean and user-friendly interface, you can easily access all the weather details you need."
-    },
-    {
-      id: 4,
       image: AI,
       title: "Imagecraft",
       category: ["MERN","Node.js","Javascript"],
       link:"https://github.com/shubhamgarg21156/imagecraft",
-      projectLink:"imagecraft.vercel.app",
+      projectLink:"https://imagecraft.vercel.app/",
       details:"It is a MERN app which harnesses the power of the OpenAI API to create a unique and fascinating experience. By leveraging the capabilities of the OpenAI API, the app generates vivid and realistic images based on user prompts."
-    }
+    },
+    {
+      id: 4,
+      image: Weather,
+      title: "Weather App",
+      category: ["Javascript"],
+      link:"https://github.com/shubhamgarg21156/weather",
+      projectLink:"https://webweatherforecast.netlify.app/",
+      details:"This website provides you with real-time weather information for any location around the world. With a clean and user-friendly interface, you can easily access all the weather details you need."
+    },
+   
   ];
 
   export default Projects;
