@@ -26,12 +26,12 @@ const Portfolio = () => {
 
     return (
     <section className="container pt-28 pb-8" id="projects">
-        <h2 className='font-bold text-h1 mb-10'>My Projects</h2>
+        <h2 className='font-bold text-h1 mb-10 dark:text-white'>My Projects</h2>
 
         <div className='flex flex-wrap items-center gap-8 mb-10'>
             {filters.map((filter) => {
                 return(
-                    <span className={`cursor-pointer font-bold text-normal hover:text-firstColor transition-all delay-150 ${active===filter && "text-firstColor"}`} onClick={() => filterProjects(`${filter}`)}>{filter}</span>
+                    <span className={`cursor-pointer font-bold text-normal dark:text-white hover:text-firstColor transition-all delay-150 ${active===filter && "dark:text-firstColor"} ${active===filter && "text-firstColor"}`} onClick={() => filterProjects(`${filter}`)}>{filter}</span>
                 )   
             })}
         </div>

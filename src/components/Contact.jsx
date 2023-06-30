@@ -4,14 +4,14 @@ import { motion } from 'framer-motion'
 const Contact = () => {
   const [isVisible, setisVisible] = useState(false);
   return (
-    <section id="contact" className="container pt-28 pb-8 my-[200px]">
-           <motion.h2 key = {isVisible} initial={{opacity:0}} animate={{opacity:1, onEnter: () => setisVisible(true)}} className='font-bold text-h1 text-center mb-16'>Get in Touch</motion.h2>
+    <section id="contact" className="container pt-28 mt-[200px] pb-[200px]">
+           <motion.h2 key = {isVisible} initial={{opacity:0}} animate={{opacity:1, onEnter: () => setisVisible(true)}} className='font-bold text-h1 text-center mb-16 dark:text-white'>Get in Touch</motion.h2>
         
         <div className='flex gap-8'>
             <div className='w-full'>
-                <h3 className='text-h3 text-center mb-2 font-bold '>Lets talk about Everything</h3>
-                <p className='text-center text-normal mb-2 text-titleColor font-[400]'>Send me an Email!👋</p>
-                <p className='flex gap-4 items-center font-semibold text-small text-center justify-center'> <i class="fa fa-envelope" aria-hidden="true"></i> gargshubham21156@gmail.com</p>
+                <h3 className='text-h3 text-center mb-2 font-bold dark:text-white '>Lets talk about Everything</h3>
+                <p className='text-center text-normal mb-2 text-titleColor font-[400] dark:text-white'>Send me an Email!👋</p>
+                <p className='flex gap-4 items-center font-semibold text-small text-center justify-center dark:text-white'> <i class="fa fa-envelope" aria-hidden="true"></i> gargshubham21156@gmail.com</p>
              </div> 
 
              {/* <form action="" className='flex flex-col gap-6 w-[65%]'>

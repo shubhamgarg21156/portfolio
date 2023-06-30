@@ -28,7 +28,7 @@ const Services = () => {
 
   return (
     <section className='container pt-28 pb-8' id="skills">
-        <motion.h2 initial={{ x:-100 }} animate={{ x: 0}} className='font-bold text-h1 ml-4 mb-16'>Skills</motion.h2>
+        <motion.h2 initial={{ x:-100 }} animate={{ x: 0}} className='font-bold text-h1 ml-4 mb-16 dark:text-white'>Skills</motion.h2>
 
         <div className='grid grid-cols-1 sm:grid-cols-3 gap-8'>
             {/* {data.map(({id, image, title, description}) => {

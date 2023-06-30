@@ -3,10 +3,10 @@ import Logo from "../assets/logo.png"
 import { motion } from 'framer-motion'
 import { Link } from "react-scroll";
 
-const Sidebar = () => {
+const Sidebar = ({handleThemeSwitch}) => {
   return (
     <motion.aside initial={{ x:-100 }} animate={{ x: 0}} className='hidden sm:flex fixed left-0 top-0 bg-bodyColor border-r-1 border-r-solid border-r-[rgba(0,0,0,0.05)]-500 p-10 w-[110px] 
-    min-h-[100vh] flex-col gap-[200px] z-10'>
+    min-h-[100vh] flex-col gap-[200px] z-10 dark:bg-black'>
       <a href="#home" className='nav_logo'>
         <img alt="logo" src={Logo} />
       </a>
@@ -25,6 +25,9 @@ const Sidebar = () => {
           </div>
       </nav>
 
+      <button className='bg-green-200 p-8 rounded-full' onClick={handleThemeSwitch}>
+          
+      </button>
       {/* <div className="nav__footer">
         <span className="copyright text-[hsl(245,15%,65%)] text-[var(--small-font-size)] transform -rotate-180 vertical-rl">&copy; 2022-2023</span>
       </div> */}

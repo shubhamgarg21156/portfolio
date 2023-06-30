@@ -4,14 +4,14 @@ import AboutAvatar from "../assets/avatar-2.svg";
 const About = () => {
   return (
     <section className="pt-28 pb-8 container" id="about">
-        <h2 className='font-bold text-h1 ml-4  mb-[40px] sm:mb-16'>About Me</h2>
+        <h2 className='font-bold text-h1 ml-4  mb-[40px] sm:mb-16 dark:text-white'>About Me</h2>
 
         <div className='flex-col sm:flex-row flex px-[20px] sm:px-[50px] gap-[25px] sm:gap-[100px]'>
             <img src={AboutAvatar} alt="avatar" className='m-auto h-[200px]'></img>
 
             <div>
                 <div className='flex flex-col justify-center items-center'>
-                    <p className='mt-[20px] text-left font-thin'>
+                    <p className='mt-[20px] text-left font-thin dark:text-white'>
                         I am Shubham Garg, Full Stack Web developer. I have Developed few projects in this domain. Additionally, I have actively honed my problem-solving skills by tackling over <span className='font-bold'>350+ </span> 
                         <span><a href="https://leetcode.com/gargshubham21156/" className='font-semibold text-firstColor' target='_blank'>Leetcode</a></span> problems, further enhancing my abilities as a software engineer.
                         At this point, I am actively seeking opportunities in SDE (Software Development Engineer) roles or web development positions, where I can apply my skills and contribute to meaningful projects 
